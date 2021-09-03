@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Campsite = require('./models/campsite');
-
 const url = 'mongodb://localhost:27017/nucampsite';
 //wrapper around mongoDB's driver node connect method
 const connect = mongoose.connect(url, {
